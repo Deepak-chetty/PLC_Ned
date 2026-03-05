@@ -71,11 +71,6 @@
    cd PLC_Ned
    ```
 
-2. **Navigate to frontend directory**
-   ```bash
-   cd frontend
-   ```
-
 3. **Install dependencies**
    ```bash
    npm install
@@ -83,7 +78,7 @@
 
 4. **Set up environment variables**
    
-   Create a `.env` file in the `frontend` directory:
+   Create a `.env` file in the root directory:
    ```env
    REACT_APP_GEMINI_API_KEY=your_gemini_api_key_here
    ```
@@ -105,40 +100,37 @@
 
 ```
 PLC/
-├── frontend/
-│   ├── public/
-│   │   ├── index.html
-│   │   └── favicon.ico
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Home/
-│   │   │   │   ├── Home.js
-│   │   │   │   └── Home.css
-│   │   │   ├── Chatbot/
-│   │   │   │   ├── Chatbot.js
-│   │   │   │   └── Chatbot.css
-│   │   │   ├── Quiz/
-│   │   │   │   ├── Quiz.js
-│   │   │   │   ├── Quiz.css
-│   │   │   │   ├── Dashboard.js
-│   │   │   │   └── Dashboard.css
-│   │   │   ├── Contact/
-│   │   │   │   ├── Contact.js
-│   │   │   │   └── Contact.css
-│   │   │   ├── Topbar.js
-│   │   │   ├── Topbar.css
-│   │   │   ├── Footer.js
-│   │   │   ├── Footer.css
-│   │   │   └── NotFound.js
-│   │   ├── App.js
-│   │   ├── App.css
-│   │   ├── index.js
-│   │   └── index.css
-│   ├── .env
-│   ├── .gitignore
-│   └── package.json
-├── backend/
-│   └── (future backend implementation)
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── Home/
+│   │   │   ├── Home.js
+│   │   │   └── Home.css
+│   │   ├── Chatbot/
+│   │   │   ├── Chatbot.js
+│   │   │   └── Chatbot.css
+│   │   ├── Quiz/
+│   │   │   ├── Quiz.js
+│   │   │   ├── Quiz.css
+│   │   │   ├── Dashboard.js
+│   │   │   └── Dashboard.css
+│   │   ├── Contact/
+│   │   │   ├── Contact.js
+│   │   │   └── Contact.css
+│   │   ├── Topbar.js
+│   │   ├── Topbar.css
+│   │   ├── Footer.js
+│   │   ├── Footer.css
+│   │   └── NotFound.js
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+├── .env
+├── .gitignore
+├── package.json
 ├── API_KEY_SETUP.md
 ├── UI_TRANSFORMATION_SUMMARY.md
 └── README.md
@@ -265,7 +257,7 @@ Contributions are welcome! Here's how you can help:
 
 ## 📝 Available Scripts
 
-In the `frontend` directory, you can run:
+In the root directory, you can run:
 
 ### `npm start`
 Runs the app in development mode at [http://localhost:3000](http://localhost:3000)
