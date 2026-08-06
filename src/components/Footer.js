@@ -62,7 +62,7 @@ function Footer() {
             <div className="footer-divider"></div>
             <div className="footer-bottom-content">
               <p className="copyright">
-                © {currentYear} PLC. All rights reserved. Built with ❤️ for learners.
+                © {currentYear} PLC. All rights reserved. Built with ❤️ for learners by Deepak Chetty.
               </p>
               <div className="footer-badges">
                 <span className="badge">🔐 Privacy First</span>
